@@ -7,23 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4F6087C539583CB9EC0BFE8 /* Pods_Streetsafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA69E2E416788142860ED3E7 /* Pods_Streetsafe.framework */; };
 		F4192DE222E915D8008B33E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4192DE122E915D8008B33E1 /* AppDelegate.swift */; };
 		F4192DE422E915D8008B33E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4192DE322E915D8008B33E1 /* ViewController.swift */; };
-		F4192DE722E915D8008B33E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4192DE522E915D8008B33E1 /* Main.storyboard */; };
 		F4192DEA22E915D8008B33E1 /* Streetsafe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4192DE822E915D8008B33E1 /* Streetsafe.xcdatamodeld */; };
 		F4192DEC22E915D9008B33E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4192DEB22E915D9008B33E1 /* Assets.xcassets */; };
 		F4192DEF22E915D9008B33E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4192DED22E915D9008B33E1 /* LaunchScreen.storyboard */; };
+		F46D33EB22E917FA00A1B668 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F46D33EA22E917FA00A1B668 /* Base.lproj */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		464D1033F1FF159B9EC364D9 /* Pods-Streetsafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Streetsafe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Streetsafe/Pods-Streetsafe.release.xcconfig"; sourceTree = "<group>"; };
+		595D292ECCAD4AC72859C769 /* Pods-Streetsafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Streetsafe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Streetsafe/Pods-Streetsafe.debug.xcconfig"; sourceTree = "<group>"; };
+		CA69E2E416788142860ED3E7 /* Pods_Streetsafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Streetsafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4192DDE22E915D8008B33E1 /* Streetsafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streetsafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4192DE122E915D8008B33E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4192DE322E915D8008B33E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4192DE622E915D8008B33E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4192DE922E915D8008B33E1 /* Streetsafe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Streetsafe.xcdatamodel; sourceTree = "<group>"; };
 		F4192DEB22E915D9008B33E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4192DEE22E915D9008B33E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4192DF022E915D9008B33E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46D33EA22E917FA00A1B668 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		F4A20C5622E918B30022A571 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F6087C539583CB9EC0BFE8 /* Pods_Streetsafe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A33187921FD82A1DC710CD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA69E2E416788142860ED3E7 /* Pods_Streetsafe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E908BCB130ADB6972677E297 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				595D292ECCAD4AC72859C769 /* Pods-Streetsafe.debug.xcconfig */,
+				464D1033F1FF159B9EC364D9 /* Pods-Streetsafe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F4192DD522E915D8008B33E1 = {
 			isa = PBXGroup;
 			children = (
 				F4192DE022E915D8008B33E1 /* Streetsafe */,
 				F4192DDF22E915D8008B33E1 /* Products */,
+				E908BCB130ADB6972677E297 /* Pods */,
+				0A33187921FD82A1DC710CD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +81,10 @@
 		F4192DE022E915D8008B33E1 /* Streetsafe */ = {
 			isa = PBXGroup;
 			children = (
+				F46D33EA22E917FA00A1B668 /* Base.lproj */,
 				F4192DE122E915D8008B33E1 /* AppDelegate.swift */,
 				F4192DE322E915D8008B33E1 /* ViewController.swift */,
-				F4192DE522E915D8008B33E1 /* Main.storyboard */,
+				F4A20C5622E918B30022A571 /* Main.storyboard */,
 				F4192DEB22E915D9008B33E1 /* Assets.xcassets */,
 				F4192DED22E915D9008B33E1 /* LaunchScreen.storyboard */,
 				F4192DF022E915D9008B33E1 /* Info.plist */,
@@ -74,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4192DF322E915D9008B33E1 /* Build configuration list for PBXNativeTarget "Streetsafe" */;
 			buildPhases = (
+				6EA3C4EE0B8894D50E2EB72C /* [CP] Check Pods Manifest.lock */,
 				F4192DDA22E915D8008B33E1 /* Sources */,
 				F4192DDB22E915D8008B33E1 /* Frameworks */,
 				F4192DDC22E915D8008B33E1 /* Resources */,
+				D0D5C8C80D6AC7493942BC54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +155,52 @@
 			files = (
 				F4192DEF22E915D9008B33E1 /* LaunchScreen.storyboard in Resources */,
 				F4192DEC22E915D9008B33E1 /* Assets.xcassets in Resources */,
-				F4192DE722E915D8008B33E1 /* Main.storyboard in Resources */,
+				F46D33EB22E917FA00A1B668 /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EA3C4EE0B8894D50E2EB72C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Streetsafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D5C8C80D6AC7493942BC54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Streetsafe/Pods-Streetsafe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Streetsafe/Pods-Streetsafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4192DDA22E915D8008B33E1 /* Sources */ = {
@@ -147,14 +216,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4192DE522E915D8008B33E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4192DE622E915D8008B33E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4192DED22E915D9008B33E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +345,7 @@
 		};
 		F4192DF422E915D9008B33E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595D292ECCAD4AC72859C769 /* Pods-Streetsafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +364,7 @@
 		};
 		F4192DF522E915D9008B33E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464D1033F1FF159B9EC364D9 /* Pods-Streetsafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
