@@ -10,10 +10,10 @@
 		E4F6087C539583CB9EC0BFE8 /* Pods_Streetsafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA69E2E416788142860ED3E7 /* Pods_Streetsafe.framework */; };
 		F4192DE222E915D8008B33E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4192DE122E915D8008B33E1 /* AppDelegate.swift */; };
 		F4192DE422E915D8008B33E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4192DE322E915D8008B33E1 /* ViewController.swift */; };
-		F4192DEA22E915D8008B33E1 /* Streetsafe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4192DE822E915D8008B33E1 /* Streetsafe.xcdatamodeld */; };
 		F4192DEC22E915D9008B33E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4192DEB22E915D9008B33E1 /* Assets.xcassets */; };
-		F4192DEF22E915D9008B33E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4192DED22E915D9008B33E1 /* LaunchScreen.storyboard */; };
 		F46D33EB22E917FA00A1B668 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F46D33EA22E917FA00A1B668 /* Base.lproj */; };
+		F4A20C5822E91A500022A571 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4A20C5722E91A500022A571 /* GoogleService-Info.plist */; };
+		F4A20C5922E91B760022A571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A20C5622E918B30022A571 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +23,11 @@
 		F4192DDE22E915D8008B33E1 /* Streetsafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Streetsafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4192DE122E915D8008B33E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4192DE322E915D8008B33E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4192DE922E915D8008B33E1 /* Streetsafe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Streetsafe.xcdatamodel; sourceTree = "<group>"; };
 		F4192DEB22E915D9008B33E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F4192DEE22E915D9008B33E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4192DF022E915D9008B33E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F46D33EA22E917FA00A1B668 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
 		F4A20C5622E918B30022A571 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F4A20C5722E91A500022A571 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +85,8 @@
 				F4192DE322E915D8008B33E1 /* ViewController.swift */,
 				F4A20C5622E918B30022A571 /* Main.storyboard */,
 				F4192DEB22E915D9008B33E1 /* Assets.xcassets */,
-				F4192DED22E915D9008B33E1 /* LaunchScreen.storyboard */,
 				F4192DF022E915D9008B33E1 /* Info.plist */,
-				F4192DE822E915D8008B33E1 /* Streetsafe.xcdatamodeld */,
+				F4A20C5722E91A500022A571 /* GoogleService-Info.plist */,
 			);
 			path = Streetsafe;
 			sourceTree = "<group>";
@@ -153,9 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4192DEF22E915D9008B33E1 /* LaunchScreen.storyboard in Resources */,
 				F4192DEC22E915D9008B33E1 /* Assets.xcassets in Resources */,
 				F46D33EB22E917FA00A1B668 /* Base.lproj in Resources */,
+				F4A20C5822E91A500022A571 /* GoogleService-Info.plist in Resources */,
+				F4A20C5922E91B760022A571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,23 +207,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4192DE422E915D8008B33E1 /* ViewController.swift in Sources */,
-				F4192DEA22E915D8008B33E1 /* Streetsafe.xcdatamodeld in Sources */,
 				F4192DE222E915D8008B33E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F4192DED22E915D9008B33E1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4192DEE22E915D9008B33E1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F4192DF122E915D9008B33E1 /* Debug */ = {
@@ -403,19 +390,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F4192DE822E915D8008B33E1 /* Streetsafe.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F4192DE922E915D8008B33E1 /* Streetsafe.xcdatamodel */,
-			);
-			currentVersion = F4192DE922E915D8008B33E1 /* Streetsafe.xcdatamodel */;
-			path = Streetsafe.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F4192DD622E915D8008B33E1 /* Project object */;
 }
